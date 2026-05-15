@@ -56,7 +56,7 @@ async fn search(QueryList(filters): QueryList<Filter, 10>) {
 
 ```toml
 [dependencies]
-axum-query-list = "0.1.0"
+axum-query-list = "0.1.1"
 ```
 
 ## Extractors
@@ -71,6 +71,10 @@ axum-query-list = "0.1.0"
 ## Background
 
 This crate was suggested by [davidpdrsn](https://github.com/davidpdrsn) (axum creator) as a standalone alternative to adding more extractors directly into axum-extra.
+
+## Contributors
+
+Special thanks to [Zelys-DFKH](https://github.com/Zelys-DFKH) for contributing significant bug fixes, deduplicating logic, and expanding the test suite in `0.1.1`.
 
 ## License
 

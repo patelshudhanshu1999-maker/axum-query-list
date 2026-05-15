@@ -1,6 +1,6 @@
 [package]
 name = "axum-query-list"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "QueryList extractor for axum — deserialize Vec<Enum> from query strings with optional cap"
 license = "MIT"
